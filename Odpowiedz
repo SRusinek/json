@@ -1,0 +1,681 @@
+[
+    {
+        "item": {
+            "id": "e6570035-edf2-ec11-b966-00155d46fa08",
+            "name": "MENU MOBILNE GŁÓWNE"
+        },
+        "children": [
+            {
+                "item": {
+                    "id": "d3f98e53-edf2-ec11-b966-00155d46fa08",
+                    "parentId": "e6570035-edf2-ec11-b966-00155d46fa08",
+                    "name": "Pulpit",
+                    "icon": "mc-view-dashboard"
+                },
+                "children": [
+                    {
+                        "item": {
+                            "id": "f95e8c64-eff2-ec11-b966-00155d46fa08",
+                            "parentId": "d3f98e53-edf2-ec11-b966-00155d46fa08",
+                            "name": "Pulpit",
+                            "icon": "mc-view-dashboard-outline"
+                        },
+                        "children": [
+                            {
+                                "item": {
+                                    "id": "ec0035e7-edf2-ec11-b966-00155d46fa08",
+                                    "parentId": "f95e8c64-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Zgłoś szkodę",
+                                    "icon": "fa5-car-crash"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "29b3f7fe-edf2-ec11-b966-00155d46fa08",
+                                    "parentId": "f95e8c64-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Zgłoś sprzedaż",
+                                    "icon": "fa5-handshake"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "9b39870f-eef2-ec11-b966-00155d46fa08",
+                                    "parentId": "f95e8c64-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Opłać polisę",
+                                    "icon": "md-payment"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "f6119235-eef2-ec11-b966-00155d46fa08",
+                                    "parentId": "f95e8c64-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Sprawdź polisę",
+                                    "entity": "bro_polisy",
+                                    "icon": "mc-file-find-outline"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "65c53a45-eef2-ec11-b966-00155d46fa08",
+                                    "parentId": "f95e8c64-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Oferty",
+                                    "icon": "mc-offer"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "318cd852-eef2-ec11-b966-00155d46fa08",
+                                    "parentId": "f95e8c64-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Dodaj pojazd",
+                                    "icon": "mc-car-select"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "25e877a1-eef2-ec11-b966-00155d46fa08",
+                                    "parentId": "f95e8c64-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Skanuj z dowodu",
+                                    "icon": "fa-qrcode"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "06aa33b8-eef2-ec11-b966-00155d46fa08",
+                                    "parentId": "f95e8c64-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Dodaj przedmiot",
+                                    "icon": "fa-plus"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "ef5639c7-eef2-ec11-b966-00155d46fa08",
+                                    "parentId": "f95e8c64-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Zadzwoń w szkodzie",
+                                    "icon": "fa-phone"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "422223d8-eef2-ec11-b966-00155d46fa08",
+                                    "parentId": "f95e8c64-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Zadzwoń do dystrybutora",
+                                    "icon": "fa5-headset"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "id": "f309a8da-eff2-ec11-b966-00155d46fa08",
+                    "parentId": "e6570035-edf2-ec11-b966-00155d46fa08",
+                    "name": "Przedmioty",
+                    "icon": "fa5-box-open"
+                },
+                "children": [
+                    {
+                        "item": {
+                            "id": "089092ea-eff2-ec11-b966-00155d46fa08",
+                            "parentId": "f309a8da-eff2-ec11-b966-00155d46fa08",
+                            "name": "Pojazdy"
+                        },
+                        "children": [
+                            {
+                                "item": {
+                                    "id": "c75f70da-f2f2-ec11-b966-00155d46fa08",
+                                    "parentId": "089092ea-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Pojazdy",
+                                    "viewName": "msk_pojazdy",
+                                    "entity": "bro_pojazdy",
+                                    "viewId": "f98a9ac6-2d30-ed11-b966-00155d46fa08",
+                                    "icon": "mc-car-multiple"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "4b8dbfea-f2f2-ec11-b966-00155d46fa08",
+                                    "parentId": "089092ea-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Badania techniczne",
+                                    "viewName": "msk_przegladyPojazdow",
+                                    "entity": "bro_przegladytechniczne",
+                                    "viewId": "38edd6c8-9db2-ed11-b96b-00155d46fa08",
+                                    "icon": "mc-car-wrench"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "1ea26af9-f2f2-ec11-b966-00155d46fa08",
+                                    "parentId": "089092ea-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Dodaj pojazd",
+                                    "icon": "mc-car-select"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "a0010b1c-f3f2-ec11-b966-00155d46fa08",
+                                    "parentId": "089092ea-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Pojazdy oczekujące na rejestrację",
+                                    "viewName": "msk_pojazdyOczekujace",
+                                    "entity": "bro_pojazdy",
+                                    "viewId": "9ccfc3e0-2d30-ed11-b966-00155d46fa08",
+                                    "icon": "mc-car-clock"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "a92ec52f-f3f2-ec11-b966-00155d46fa08",
+                                    "parentId": "089092ea-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Uzupełnij dane pojazdów",
+                                    "viewName": "msk_pojazdy_daty",
+                                    "entity": "bro_pojazdy",
+                                    "icon": "md-system-update-alt"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "c1c01044-f3f2-ec11-b966-00155d46fa08",
+                                    "parentId": "089092ea-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Skanuj z dowodu rejestracyjnego",
+                                    "icon": "fa-qrcode"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "7664e458-f3f2-ec11-b966-00155d46fa08",
+                                    "parentId": "089092ea-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Wyrejestruj pojazd",
+                                    "icon": "mc-car-off"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "0bd59670-f3f2-ec11-b966-00155d46fa08",
+                                    "parentId": "089092ea-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Rejestruj dodatkowe wyposażenie",
+                                    "icon": "mc-car-seat-heater"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "a485f68d-f3f2-ec11-b966-00155d46fa08",
+                                    "parentId": "089092ea-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Aktualizuj dane pojazdu z CEPIK",
+                                    "icon": "mc-car-info"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "1cd7e99e-f3f2-ec11-b966-00155d46fa08",
+                                    "parentId": "089092ea-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Historyczne wyceny",
+                                    "entity": "pkbsol_vehiclevaluation",
+                                    "icon": "fa-tag"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "fa09cbb6-f3f2-ec11-b966-00155d46fa08",
+                                    "parentId": "089092ea-eff2-ec11-b966-00155d46fa08",
+                                    "name": "Historyczne raporty",
+                                    "icon": "mc-file-chart-outline"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "item": {
+                            "id": "974bb10c-f0f2-ec11-b966-00155d46fa08",
+                            "parentId": "f309a8da-eff2-ec11-b966-00155d46fa08",
+                            "name": "Pozostałe przedmioty"
+                        },
+                        "children": [
+                            {
+                                "item": {
+                                    "id": "1f513ce0-f3f2-ec11-b966-00155d46fa08",
+                                    "parentId": "974bb10c-f0f2-ec11-b966-00155d46fa08",
+                                    "name": "Przedmioty",
+                                    "entity": "pkbsol_insurancesubject",
+                                    "icon": "fa5-box-open"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "9ee9f3f0-f3f2-ec11-b966-00155d46fa08",
+                                    "parentId": "974bb10c-f0f2-ec11-b966-00155d46fa08",
+                                    "name": "Dodaj przedmiot",
+                                    "icon": "fa-plus"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "ab399aff-f3f2-ec11-b966-00155d46fa08",
+                                    "parentId": "974bb10c-f0f2-ec11-b966-00155d46fa08",
+                                    "name": "Osoby",
+                                    "entity": "pkbsol_participation",
+                                    "icon": "md-people"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "359b4309-f4f2-ec11-b966-00155d46fa08",
+                                    "parentId": "974bb10c-f0f2-ec11-b966-00155d46fa08",
+                                    "name": "Nieruchomości",
+                                    "entity": "pkbsol_insurancesubject",
+                                    "icon": "mc-office-building-outline"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "c91be71d-f4f2-ec11-b966-00155d46fa08",
+                                    "parentId": "974bb10c-f0f2-ec11-b966-00155d46fa08",
+                                    "name": "Wspólnoty Mieszkaniowe",
+                                    "viewName": "msk_przedmiotUbezpieczenia",
+                                    "entity": "pkbsol_insurancesubject",
+                                    "viewId": "16bc9cb4-9db2-ed11-b96b-00155d46fa08",
+                                    "icon": "mc-office-building-marker"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "8c2d853a-f4f2-ec11-b966-00155d46fa08",
+                                    "parentId": "974bb10c-f0f2-ec11-b966-00155d46fa08",
+                                    "name": "Elektronika",
+                                    "entity": "pkbsol_insurancesubject",
+                                    "icon": "fa-bolt"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "b5c85849-f4f2-ec11-b966-00155d46fa08",
+                                    "parentId": "974bb10c-f0f2-ec11-b966-00155d46fa08",
+                                    "name": "Maszyny i urządzenia",
+                                    "entity": "pkbsol_insurancesubject",
+                                    "icon": "mc-screw-machine-flat-top"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "2e72f970-f4f2-ec11-b966-00155d46fa08",
+                                    "parentId": "974bb10c-f0f2-ec11-b966-00155d46fa08",
+                                    "name": "Wyposażenie",
+                                    "entity": "pkbsol_insurancesubject",
+                                    "icon": "mc-car-seat"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "fa9d4877-f4f2-ec11-b966-00155d46fa08",
+                                    "parentId": "974bb10c-f0f2-ec11-b966-00155d46fa08",
+                                    "name": "Samoloty",
+                                    "entity": "pkbsol_insurancesubject",
+                                    "icon": "fa-plane"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "item": {
+                            "id": "cb8d542e-f5f2-ec11-b966-00155d46fa08",
+                            "parentId": "f309a8da-eff2-ec11-b966-00155d46fa08",
+                            "name": "Polisy"
+                        },
+                        "children": [
+                            {
+                                "item": {
+                                    "id": "01c53072-f5f2-ec11-b966-00155d46fa08",
+                                    "parentId": "cb8d542e-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Polisy",
+                                    "viewName": "msk_polisaTestowa",
+                                    "entity": "bro_polisy",
+                                    "viewId": "58950292-9db2-ed11-b96b-00155d46fa08",
+                                    "icon": "mc-file-certificate-outline"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "5beb1b84-f5f2-ec11-b966-00155d46fa08",
+                                    "parentId": "cb8d542e-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Polisy wygasające",
+                                    "viewName": "msk_Strefa Klienta - Aktywne polisy",
+                                    "entity": "bro_polisy",
+                                    "viewId": "2a08a154-2e30-ed11-b966-00155d46fa08",
+                                    "icon": "mc-file-clock-outline"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "a6c15294-f5f2-ec11-b966-00155d46fa08",
+                                    "parentId": "cb8d542e-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Polisy nieopłacone",
+                                    "viewName": "msk_nieoplaconePolisy",
+                                    "entity": "bro_polisy",
+                                    "advancedForm": "Strefa Klienta",
+                                    "viewId": "2ad96764-2e30-ed11-b966-00155d46fa08",
+                                    "icon": "mc-file-alert-outline"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "335d92ec-8db2-ed11-b96b-00155d46fa08",
+                                    "parentId": "cb8d542e-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Polisy nieopłacone - test widoku",
+                                    "viewName": "msk_Strefa Klienta - Archiwalne polisy- testy widokow",
+                                    "entity": "bro_polisy",
+                                    "advancedForm": "Strefa Klienta",
+                                    "viewId": "18f6593a-9db2-ed11-b96b-00155d46fa08",
+                                    "icon": "mc-file-alert-outline"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "item": {
+                            "id": "ad996e4a-f5f2-ec11-b966-00155d46fa08",
+                            "parentId": "f309a8da-eff2-ec11-b966-00155d46fa08",
+                            "name": "Zgłoszenia"
+                        },
+                        "children": [
+                            {
+                                "item": {
+                                    "id": "6fb2bdbb-f5f2-ec11-b966-00155d46fa08",
+                                    "parentId": "ad996e4a-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Zgłoś sprzedaż pojazdu",
+                                    "icon": "fa5-omment-dollar"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "c302b2db-f5f2-ec11-b966-00155d46fa08",
+                                    "parentId": "ad996e4a-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Zgłoś sprzedaż przedmiotu",
+                                    "viewName": "msk_nieruchomosci",
+                                    "entity": "pkbsol_insurancesubject",
+                                    "viewId": "e2c58215-837b-ed11-b969-00155d46fa08",
+                                    "icon": "fa-seal"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "2ed7b7fa-f5f2-ec11-b966-00155d46fa08",
+                                    "parentId": "ad996e4a-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Zgłoś szkodę",
+                                    "icon": "fa5-car-crash"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "74a7d50e-f6f2-ec11-b966-00155d46fa08",
+                                    "parentId": "ad996e4a-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Wypowiedz polisę",
+                                    "icon": "fa-ban"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "ca073827-f6f2-ec11-b966-00155d46fa08",
+                                    "parentId": "ad996e4a-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Zgłoś czasowe wyrejestrowanie pojazdu",
+                                    "icon": "mc-timer-sand"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "98194242-f6f2-ec11-b966-00155d46fa08",
+                                    "parentId": "ad996e4a-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Zgłoś wycofanie pojazdu z ruchu",
+                                    "icon": "mc-car-arrow-left"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "fb2df490-f6f2-ec11-b966-00155d46fa08",
+                                    "parentId": "ad996e4a-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Oględziny pojazdu",
+                                    "icon": "mc-car-door"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "95f3e7a7-f6f2-ec11-b966-00155d46fa08",
+                                    "parentId": "ad996e4a-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Przekaż wycenę własną pojazdu",
+                                    "icon": "mc-car-key"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "a92f10b7-f6f2-ec11-b966-00155d46fa08",
+                                    "parentId": "ad996e4a-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Zasil Portfel",
+                                    "icon": "fa5-wallet"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "1608ecd4-f6f2-ec11-b966-00155d46fa08",
+                                    "parentId": "ad996e4a-f5f2-ec11-b966-00155d46fa08",
+                                    "name": "Zwróć środki z Portfela",
+                                    "icon": "mc-transfer"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "id": "c0dbd291-f0f2-ec11-b966-00155d46fa08",
+                    "parentId": "e6570035-edf2-ec11-b966-00155d46fa08",
+                    "name": "Finanse",
+                    "icon": "fa5-coins"
+                },
+                "children": [
+                    {
+                        "item": {
+                            "id": "85cb3d58-f1f2-ec11-b966-00155d46fa08",
+                            "parentId": "c0dbd291-f0f2-ec11-b966-00155d46fa08",
+                            "name": "Polisy"
+                        },
+                        "children": [
+                            {
+                                "item": {
+                                    "id": "6d5bbd64-f1f2-ec11-b966-00155d46fa08",
+                                    "parentId": "85cb3d58-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Opłać polisę",
+                                    "icon": "md-payment"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "5a50d475-f1f2-ec11-b966-00155d46fa08",
+                                    "parentId": "85cb3d58-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Wypowiedz polisę OC",
+                                    "icon": "fa-ban"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "85fa8088-f1f2-ec11-b966-00155d46fa08",
+                                    "parentId": "85cb3d58-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Oczekujące wypowiedzenia",
+                                    "entity": "bro_wypowiedzeniegrup",
+                                    "icon": "mc-file-clock-outline"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "44637397-f1f2-ec11-b966-00155d46fa08",
+                                    "parentId": "85cb3d58-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Dyspozycje zwrotu",
+                                    "entity": "pkbsol_premiumreturn",
+                                    "icon": "fa-rotate-left"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "d850dfac-f1f2-ec11-b966-00155d46fa08",
+                                    "parentId": "85cb3d58-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Wpłaty rozliczone",
+                                    "viewName": "msk_Wplaty rozliczone",
+                                    "entity": "bro_wplata",
+                                    "viewId": "c41865d1-2e30-ed11-b966-00155d46fa08",
+                                    "icon": "mc-clipboard-check-outline"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "c50172c3-f1f2-ec11-b966-00155d46fa08",
+                                    "parentId": "85cb3d58-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Wpłaty nierozliczone",
+                                    "viewName": "msk_Wplaty nierozliczone",
+                                    "entity": "bro_wplata",
+                                    "viewId": "aa1eea3b-81b3-ed11-b96b-00155d46fa08",
+                                    "icon": "mc-clipboard-outline"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "2d47cdd5-f1f2-ec11-b966-00155d46fa08",
+                                    "parentId": "85cb3d58-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Portfel Klienta",
+                                    "viewName": "msk_Strefa Klienta",
+                                    "entity": "pkbsol_wallet",
+                                    "viewId": "723ccf49-9674-ed11-b969-00155d46fa08",
+                                    "icon": "fa5-wallet"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "c8252fec-f1f2-ec11-b966-00155d46fa08",
+                                    "parentId": "85cb3d58-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Rachunek bankowy własny",
+                                    "viewName": "msk_Rachunki bankowe wlasne",
+                                    "entity": "ibpf_rachunekbankowy",
+                                    "viewId": "448838f7-e842-ed11-b968-00155d46fa08",
+                                    "icon": "mc-account-cash"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "6a664f00-f2f2-ec11-b966-00155d46fa08",
+                                    "parentId": "85cb3d58-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Rachunek bankowy depozytowy",
+                                    "viewName": "msk_Rachunek bankowy depozytowy",
+                                    "entity": "ibpf_rachunekbankowy",
+                                    "viewId": "68ce84c7-e842-ed11-b968-00155d46fa08",
+                                    "icon": "mc-bank-outline"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "id": "30ecc9a3-f0f2-ec11-b966-00155d46fa08",
+                    "parentId": "e6570035-edf2-ec11-b966-00155d46fa08",
+                    "name": "Usługi",
+                    "icon": "mc-hand-extended"
+                },
+                "children": [
+                    {
+                        "item": {
+                            "id": "5a9536f9-f0f2-ec11-b966-00155d46fa08",
+                            "parentId": "30ecc9a3-f0f2-ec11-b966-00155d46fa08",
+                            "name": "Ubezpieczenia"
+                        }
+                    },
+                    {
+                        "item": {
+                            "id": "23c92608-f1f2-ec11-b966-00155d46fa08",
+                            "parentId": "30ecc9a3-f0f2-ec11-b966-00155d46fa08",
+                            "name": "Raporty"
+                        },
+                        "children": [
+                            {
+                                "item": {
+                                    "id": "7e18db21-f1f2-ec11-b966-00155d46fa08",
+                                    "parentId": "23c92608-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Wyceń pojazd",
+                                    "icon": "mc-car-connected"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "a798a633-f1f2-ec11-b966-00155d46fa08",
+                                    "parentId": "23c92608-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Raport nt. pojazdu",
+                                    "icon": "mc-car-speed-limiter"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "e02a42e2-9da7-ed11-b96b-00155d46fa08",
+                                    "parentId": "23c92608-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Klienci",
+                                    "viewName": "msk_Strefa Klienta",
+                                    "entity": "account",
+                                    "viewId": "a658a928-3230-ed11-b966-00155d46fa08"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "0ab8e24e-bda7-ed11-b96b-00155d46fa08",
+                                    "parentId": "23c92608-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Dokumenty",
+                                    "entity": "pkbsol_wzorydokumentow"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "f3e2d238-58a8-e311-a8a1-002219bd3fb2",
+                                    "parentId": "23c92608-f1f2-ec11-b966-00155d46fa08",
+                                    "name": "Wszystkie składki",
+                                    "viewName": "msk_Strefa Klienta",
+                                    "entity": "bro_harmonogramplatnosciskladek",
+                                    "viewId": "ba21b843-3130-ed11-b966-00155d46fa08"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item": {
+            "id": "61d8de8b-fcf2-ec11-b966-00155d46fa08",
+            "name": "MENU MOBILNE BOCZNE"
+        },
+        "children": [
+            {
+                "item": {
+                    "id": "a68edec3-fcf2-ec11-b966-00155d46fa08",
+                    "parentId": "61d8de8b-fcf2-ec11-b966-00155d46fa08",
+                    "name": "Profil użytkownika",
+                    "icon": "md-person"
+                }
+            },
+            {
+                "item": {
+                    "id": "55fc0cec-9bae-ed11-b96b-00155d46fa08",
+                    "parentId": "61d8de8b-fcf2-ec11-b966-00155d46fa08",
+                    "name": "Aktywne polisy - boczne menu",
+                    "viewName": "msk_Strefa Klienta - Archiwalne polisy",
+                    "entity": "bro_polisy",
+                    "advancedForm": "Strefa Klienta",
+                    "icon": "mc-file-alert-outline"
+                }
+            }
+        ]
+    },
+    {
+        "item": {
+            "id": "09b857e6-f5a6-ed11-b96b-00155d46fa08",
+            "name": "Mobilne ryzyka",
+            "viewName": "msk_ryzyka",
+            "entity": "bro_ryzyka"
+        }
+    }
+]
